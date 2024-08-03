@@ -101,7 +101,7 @@ build_gcc() {
     --with-headers="/usr/include" \
     --with-linker-hash-style=gnu \
     --with-newlib \
-    --with-pkgversion="Eva GCC" \
+    --with-pkgversion="Kontolodon GCC" \
     --with-sysroot
 
   make all-gcc -j"$JOBS"
